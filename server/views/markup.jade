@@ -1,0 +1,35 @@
+extends includes/layout
+block content
+	form(action="userUpdate", method="post")
+		table
+			tr
+				th First name
+				th Last name
+			tr
+				td
+					input(type="text", value='Leonard', name="people[][firstname]")
+				td
+					input(type="text", value='Hofstader', name="people[][surname]")
+			tr
+				td
+					input(type="text", value='Sheldon', name="people[][firstname]")
+				td
+					input(type="text", value='Cooper', name="people[][surname]")
+			tr
+				td
+					input(type="text", value='Raj', name="people[][firstname]")
+				td  
+					input(type="text", value='Koothrapali', name="people[][surname]")
+			tr
+				td
+					input(type="text", value='Howard', name="people[][firstname]")
+				td  
+					input(type="text", value='Wolowitz', name="people[][surname]")
+			tr
+				td
+					input(type="text", value='Penny', name="people[][firstname]")
+				td  
+					input(type="text", value='', name="people[][surname]")
+		input(type="submit", value='OK')
+
+		

@@ -1,0 +1,22 @@
+{
+  "name": "Sky",
+  "description": "CRUD",
+  "main": "server.js",
+  "authors": [
+    "ntorbev"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0"
+  }
+}
